@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>FA2 Nested Loop</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 20px;
+    }
+
+    input {
+      width: 40px;
+      padding: 4px;
+    }
+
+    button {
+      padding: 6px 10px;
+      font-size: 14px;
+      cursor: pointer;
+    }
+
+    table {
+      margin-top: 10px;
+      border-collapse: collapse;
+    }
+
+    td {
+      border: 1px solid black;
+      padding: 6px;
+      text-align: center;
+    }
+  </style>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <p>[Enter a number between 2 and 10]</p>
+  <input type="text" id="startVal"> by <input type="text" id="endVal">
+  <br><br>
+  <button id="generateBtn">Click here when ready!</button>
+  <br><br>
+  <div id="output"></div>
+</body>
+</html>
